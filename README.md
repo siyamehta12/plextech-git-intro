@@ -80,10 +80,10 @@ Suppose one of your project partners created `foo.py` with a function that print
 Person B has fixed the bug in the code, but now what? These changes are still in your bug-fix branch, while the issue is still not resolved on main. What we want to do is merge the fixes in our current branch into the main branch of our repository. We can do so through a ***pull request***.
 
 1. On your Github repository, click on "pull requests" and then "new pull request." Select your bug-fix branch as the compare branch and click "create pull request" (make sure main is the base branch). Here, reviewers can comment on the changes that you've made and approve the pull request before it gets merged into the main codebase.
-  a. In most companies, PRs (short for pull requests) often have to be approved by multiple people at different levels (Senior Engineers, Managers, etc) before getting merged. This is where other people can comment on your code/suggest things to change/have discussions on your code.
-  b. Additionally at some companies, there are things called CI (continuous integration) / CD (continuous development) checks that automatically run unit test cases/integration test cases on every PRs. At Roblox, they had ~50 checks that took 1+ hours to finish and all checks had to pass (on top of being reviewed by others) before you could merge.
-2. Add a comment onto the pull request (like a "LGTM" or something quirkier!??!)
-3. Click "merge pull request" and confirm the merge.
+- In most companies, PRs (short for pull requests) often have to be approved by multiple people at different levels (Senior Engineers, Managers, etc) before getting merged. This is where other people can comment on your code/suggest things to change/have discussions on your code.
+- Additionally at some companies, there are things called CI (continuous integration) / CD (continuous development) checks that automatically run unit test cases/integration test cases on every PRs. At Roblox, they had ~50 checks that took 1+ hours to finish and all checks had to pass (on top of being reviewed by others) before you could merge.
+3. Add a comment onto the pull request (like a "LGTM" or something quirkier!??!)
+4. Click "merge pull request" and confirm the merge.
 
 Now you should be able to see your changes on main.
 
